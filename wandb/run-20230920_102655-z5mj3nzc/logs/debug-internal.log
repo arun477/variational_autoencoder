@@ -1,0 +1,31 @@
+2023-09-20 10:26:55,017 INFO    StreamThr :3757 [internal.py:wandb_internal():86] W&B internal server running at pid: 3757, started at: 2023-09-20 10:26:55.015685
+2023-09-20 10:26:55,019 DEBUG   HandlerThread:3757 [handler.py:handle_request():144] handle_request: status
+2023-09-20 10:26:55,041 INFO    WriterThread:3757 [datastore.py:open_for_write():85] open: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_102655-z5mj3nzc/run-z5mj3nzc.wandb
+2023-09-20 10:26:55,042 DEBUG   SenderThread:3757 [sender.py:send():379] send: header
+2023-09-20 10:26:55,101 DEBUG   SenderThread:3757 [sender.py:send():379] send: run
+2023-09-20 10:26:56,046 INFO    SenderThread:3757 [dir_watcher.py:__init__():211] watching files in: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_102655-z5mj3nzc/files
+2023-09-20 10:26:56,046 INFO    SenderThread:3757 [sender.py:_start_run_threads():1121] run started: z5mj3nzc with start time 1695185815.016038
+2023-09-20 10:26:56,061 DEBUG   HandlerThread:3757 [handler.py:handle_request():144] handle_request: check_version
+2023-09-20 10:26:56,062 DEBUG   SenderThread:3757 [sender.py:send_request():406] send_request: check_version
+2023-09-20 10:26:56,152 DEBUG   HandlerThread:3757 [handler.py:handle_request():144] handle_request: run_start
+2023-09-20 10:26:56,166 DEBUG   HandlerThread:3757 [system_info.py:__init__():32] System info init
+2023-09-20 10:26:56,166 DEBUG   HandlerThread:3757 [system_info.py:__init__():47] System info init done
+2023-09-20 10:26:56,166 INFO    HandlerThread:3757 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:26:56,167 INFO    SystemMonitor:3757 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:26:56,167 INFO    HandlerThread:3757 [system_monitor.py:probe():201] Collecting system info
+2023-09-20 10:26:56,167 INFO    SystemMonitor:3757 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:26:56,168 DEBUG   HandlerThread:3757 [system_info.py:probe():196] Probing system
+2023-09-20 10:26:56,168 INFO    SystemMonitor:3757 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:26:56,170 INFO    SystemMonitor:3757 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:26:56,170 INFO    SystemMonitor:3757 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:26:56,180 DEBUG   HandlerThread:3757 [system_info.py:_probe_git():181] Probing git
+2023-09-20 10:26:56,224 DEBUG   HandlerThread:3757 [system_info.py:_probe_git():189] Probing git done
+2023-09-20 10:26:56,224 DEBUG   HandlerThread:3757 [system_info.py:probe():244] Probing system done
+2023-09-20 10:26:56,224 DEBUG   HandlerThread:3757 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.7', 'heartbeatAt': '2023-09-20T04:56:56.168172', 'startedAt': '2023-09-20T04:56:55.000887', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/arun477/variational_autoencoder.git', 'commit': '2f85021b0eba3503d1c4653dffee83ef110daf3c'}, 'email': 'coolarun477@gmail.com', 'root': '/Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder', 'host': 'Aruns-MacBook-Pro.local', 'username': 'arun', 'executable': '/Applications/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 215.49846267700195}}, 'memory': {'total': 8.0}}
+2023-09-20 10:26:56,224 INFO    HandlerThread:3757 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-20 10:26:56,224 INFO    HandlerThread:3757 [system_monitor.py:probe():214] Publishing system info
+2023-09-20 10:26:56,224 DEBUG   HandlerThread:3757 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-20 10:26:56,225 DEBUG   HandlerThread:3757 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-20 10:26:56,225 DEBUG   HandlerThread:3757 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-09-20 10:26:57,053 INFO    Thread-12 :3757 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_102655-z5mj3nzc/files/conda-environment.yaml
+2023-09-20 10:26:57,056 INFO    Thread-12 :3757 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_102655-z5mj3nzc/files/requirements.txt
