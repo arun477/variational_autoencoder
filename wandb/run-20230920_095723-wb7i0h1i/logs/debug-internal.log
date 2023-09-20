@@ -1026,3 +1026,8 @@
 2023-09-20 10:08:30,485 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
 2023-09-20 10:08:33,959 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
 2023-09-20 10:08:38,975 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:08:43,986 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:08:45,481 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:08:45,482 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:08:45,488 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:08:49,915 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
