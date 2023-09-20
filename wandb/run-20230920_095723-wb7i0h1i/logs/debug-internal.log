@@ -1003,3 +1003,9 @@
 2023-09-20 10:07:33,787 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/p63x54n2-media/images/predcition_82_5f615679097dcac4841a.png
 2023-09-20 10:07:38,075 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
 2023-09-20 10:07:43,097 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:07:45,468 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:07:45,469 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:07:45,469 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:07:48,762 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:07:53,775 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:07:58,797 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
