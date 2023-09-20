@@ -1031,3 +1031,354 @@
 2023-09-20 10:08:45,482 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
 2023-09-20 10:08:45,488 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
 2023-09-20 10:08:49,915 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:08:54,941 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:08:59,964 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:00,483 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:09:00,485 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:09:00,493 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:09:05,886 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:10,901 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:15,487 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:09:15,489 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:09:15,494 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:09:16,893 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:21,911 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:24,082 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:09:24,083 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:09:24,083 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:09:24,083 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:09:24,085 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:09:24,086 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:09:24,087 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:09:24,088 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:09:24,088 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:09:24,088 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:09:24,089 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:09:24,089 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:09:24,089 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:09:24,089 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:09:24,090 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:09:24,096 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:09:24,096 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:09:24,096 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:09:24,101 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:09:27,117 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:30,494 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:09:30,496 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:09:30,501 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:09:32,853 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:32,935 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:09:32,936 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:09:32,936 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:09:32,936 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:09:32,937 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:09:32,938 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:09:32,940 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:09:32,940 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:09:32,959 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:09:32,960 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/predcition_83_5f615679097dcac4841a.png with policy now
+2023-09-20 10:09:32,960 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 10:09:32,961 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:09:32,961 DEBUG   SenderThread:2407 [sender.py:send():379] send: history
+2023-09-20 10:09:32,961 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:09:32,961 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 10:09:32,961 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:09:32,962 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:09:32,962 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:09:32,962 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:09:32,963 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:09:32,963 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 10:09:32,963 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:09:32,963 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:09:32,964 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:09:32,965 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:09:33,338 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/wandb-summary.json
+2023-09-20 10:09:33,339 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/predcition_83_5f615679097dcac4841a.png
+2023-09-20 10:09:33,339 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images
+2023-09-20 10:09:33,926 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/gvcbj6tg-media/images/predcition_83_5f615679097dcac4841a.png
+2023-09-20 10:09:34,927 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/a9khldac-media/images/predcition_83_5f615679097dcac4841a.png
+2023-09-20 10:09:37,983 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:43,005 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:45,499 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:09:45,501 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:09:45,506 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:09:48,849 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:53,872 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:09:58,889 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:00,504 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:10:00,505 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:10:00,510 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:10:04,854 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:09,872 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:14,894 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:15,507 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:10:15,508 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:10:15,513 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:10:18,087 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:10:18,087 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:10:18,087 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:10:18,088 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:10:18,089 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:10:18,090 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:10:18,091 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:10:18,092 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:10:18,109 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:10:18,109 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 10:10:18,109 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/predcition_84_5f615679097dcac4841a.png with policy now
+2023-09-20 10:10:18,110 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:10:18,110 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:10:18,110 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:10:18,110 DEBUG   SenderThread:2407 [sender.py:send():379] send: history
+2023-09-20 10:10:18,110 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:10:18,110 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:10:18,111 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 10:10:18,111 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:10:18,111 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:10:18,111 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:10:18,112 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:10:18,113 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:10:18,113 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 10:10:18,113 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:10:18,577 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/wandb-summary.json
+2023-09-20 10:10:18,578 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/predcition_84_5f615679097dcac4841a.png
+2023-09-20 10:10:18,579 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images
+2023-09-20 10:10:18,967 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/o4msvdq1-media/images/predcition_84_5f615679097dcac4841a.png
+2023-09-20 10:10:20,119 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/utqlk8pd-media/images/predcition_84_5f615679097dcac4841a.png
+2023-09-20 10:10:20,121 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:25,147 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:30,173 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:30,513 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:10:30,514 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:10:30,518 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:10:35,921 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:40,940 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:45,519 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:10:45,520 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:10:45,521 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:10:46,907 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:51,929 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:10:56,953 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:00,522 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:11:00,523 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:11:00,524 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:11:01,972 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:06,992 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:12,005 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:15,522 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:11:15,524 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:11:15,529 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:11:17,926 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:22,944 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:27,962 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:30,524 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:11:30,525 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:11:30,530 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:11:32,979 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:37,997 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:43,015 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:45,527 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:11:45,528 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:11:45,535 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:11:48,929 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:51,324 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:11:51,324 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:11:51,324 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:11:51,325 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:11:51,326 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:11:51,326 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:11:51,327 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:11:51,328 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:11:51,346 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:11:51,347 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/predcition_85_5f615679097dcac4841a.png with policy now
+2023-09-20 10:11:51,350 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 10:11:51,351 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:11:51,351 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/original_85_76d5dae79ee2e7cfe5aa.png with policy now
+2023-09-20 10:11:51,351 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:11:51,352 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:11:51,352 DEBUG   SenderThread:2407 [sender.py:send():379] send: history
+2023-09-20 10:11:51,352 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:11:51,352 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 10:11:51,353 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:11:51,353 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:11:51,354 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:11:51,354 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:11:51,354 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 10:11:51,355 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:11:51,357 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:11:51,357 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:11:51,358 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:11:52,067 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/wandb-summary.json
+2023-09-20 10:11:52,068 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/predcition_85_5f615679097dcac4841a.png
+2023-09-20 10:11:52,068 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/original_85_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:11:52,069 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images
+2023-09-20 10:11:52,166 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/ewzbwgfc-media/images/predcition_85_5f615679097dcac4841a.png
+2023-09-20 10:11:52,263 INFO    wandb-upload_1:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/30n99p65-media/images/original_85_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:11:53,052 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/v8ouvl9i-media/images/predcition_85_5f615679097dcac4841a.png
+2023-09-20 10:11:53,160 INFO    wandb-upload_1:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/dkslf9ho-media/images/original_85_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:11:54,372 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:11:59,388 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:00,529 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:12:00,530 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:12:00,539 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:12:04,967 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:09,992 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:15,011 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:15,533 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:12:15,535 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:12:15,544 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:12:20,939 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:25,952 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:30,536 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:12:30,537 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:12:30,549 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:12:31,928 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:36,943 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:41,961 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:45,544 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:12:45,546 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:12:45,554 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:12:47,922 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:52,943 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:12:57,963 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:00,542 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:13:00,543 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:13:00,559 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:13:00,787 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:13:00,787 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:13:00,787 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:13:00,788 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:13:00,789 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:13:00,789 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:13:00,791 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:13:00,792 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:13:00,816 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 10:13:00,817 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:13:00,817 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:13:00,817 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:13:00,817 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:13:00,818 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:13:00,818 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:13:00,818 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:13:00,818 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:13:00,818 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:13:00,818 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:13:00,880 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:13:00,880 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/generated_86_5f615679097dcac4841a.png with policy now
+2023-09-20 10:13:00,880 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:13:00,880 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/original_86_76d5dae79ee2e7cfe5aa.png with policy now
+2023-09-20 10:13:00,881 DEBUG   SenderThread:2407 [sender.py:send():379] send: history
+2023-09-20 10:13:00,881 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 10:13:00,882 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 10:13:00,882 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:13:01,420 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/wandb-summary.json
+2023-09-20 10:13:01,420 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/generated_86_5f615679097dcac4841a.png
+2023-09-20 10:13:01,421 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/original_86_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:13:01,421 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images
+2023-09-20 10:13:01,665 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/p1vxaiky-media/images/generated_86_5f615679097dcac4841a.png
+2023-09-20 10:13:01,728 INFO    wandb-upload_1:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/imqvg1a8-media/images/original_86_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:13:02,635 INFO    wandb-upload_1:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/uvjcuw95-media/images/original_86_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:13:02,763 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/99vwkikh-media/images/generated_86_5f615679097dcac4841a.png
+2023-09-20 10:13:03,891 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:08,904 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:13,923 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:15,547 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:13:15,549 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:13:15,560 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:13:18,958 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:23,976 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:28,994 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:30,461 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:13:30,461 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:13:30,461 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:13:30,463 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:13:30,465 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:13:30,465 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:13:30,466 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:13:30,467 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:13:30,468 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:13:30,468 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:13:30,468 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:13:30,468 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:13:30,468 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:13:30,468 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:13:30,468 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:13:30,468 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:13:30,468 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:13:30,469 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:13:30,471 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:13:30,547 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:13:30,547 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:13:30,564 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:13:33,997 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:39,018 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:44,029 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:45,554 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:13:45,554 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:13:45,570 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:13:49,943 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:54,960 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:13:59,983 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:00,557 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:14:00,559 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:14:00,569 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:14:05,981 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:11,003 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:15,557 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:14:15,558 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:14:15,574 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:14:16,460 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: resume
+2023-09-20 10:14:16,460 INFO    HandlerThread:2407 [handler.py:handle_request_resume():690] starting system metrics thread
+2023-09-20 10:14:16,460 INFO    HandlerThread:2407 [system_monitor.py:start():181] Starting system monitor
+2023-09-20 10:14:16,460 INFO    SystemMonitor:2407 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-20 10:14:16,461 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started cpu monitoring
+2023-09-20 10:14:16,462 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started disk monitoring
+2023-09-20 10:14:16,462 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started memory monitoring
+2023-09-20 10:14:16,463 INFO    SystemMonitor:2407 [interfaces.py:start():190] Started network monitoring
+2023-09-20 10:14:16,482 DEBUG   SenderThread:2407 [sender.py:send():379] send: files
+2023-09-20 10:14:16,483 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file media/images/original_87_76d5dae79ee2e7cfe5aa.png with policy now
+2023-09-20 10:14:16,483 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-20 10:14:16,483 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: pause
+2023-09-20 10:14:16,484 INFO    HandlerThread:2407 [handler.py:handle_request_pause():699] stopping system metrics thread
+2023-09-20 10:14:16,484 INFO    HandlerThread:2407 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-20 10:14:16,484 DEBUG   SenderThread:2407 [sender.py:send():379] send: history
+2023-09-20 10:14:16,484 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-20 10:14:16,484 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-20 10:14:16,484 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: summary_record
+2023-09-20 10:14:16,485 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-20 10:14:16,485 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined disk monitor
+2023-09-20 10:14:16,485 DEBUG   SystemMonitor:2407 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-20 10:14:16,485 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined memory monitor
+2023-09-20 10:14:16,486 INFO    HandlerThread:2407 [interfaces.py:finish():202] Joined network monitor
+2023-09-20 10:14:16,486 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:16,487 INFO    SenderThread:2407 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-20 10:14:16,487 DEBUG   SenderThread:2407 [sender.py:send():379] send: stats
+2023-09-20 10:14:16,836 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/wandb-summary.json
+2023-09-20 10:14:16,840 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images/original_87_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:14:16,841 INFO    Thread-12 :2407 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arun/Dropbox/Mac/Documents/personal/projects/variational_autoencoder/wandb/run-20230920_095723-wb7i0h1i/files/media/images
+2023-09-20 10:14:17,334 INFO    wandb-upload_1:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/r6vbaucy-media/images/original_87_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:14:18,294 INFO    wandb-upload_0:2407 [upload_job.py:push():131] Uploaded file /var/folders/8k/07c2mpg56x7c31_26k0qj2y00000gn/T/tmpdtrswyk7wandb/f47fjsmz-media/images/original_87_76d5dae79ee2e7cfe5aa.png
+2023-09-20 10:14:21,508 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:26,517 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:30,566 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:14:30,567 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:14:30,579 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:14:31,928 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:36,953 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:41,967 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:45,569 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:14:45,571 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:14:45,583 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:14:47,058 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:52,075 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:14:57,089 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:15:00,574 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:15:00,577 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:15:00,589 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:15:02,243 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:15:07,259 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:15:12,279 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:15:15,576 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-20 10:15:15,577 DEBUG   SenderThread:2407 [sender.py:send_request():406] send_request: stop_status
+2023-09-20 10:15:15,593 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-20 10:15:17,939 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
+2023-09-20 10:15:22,958 DEBUG   HandlerThread:2407 [handler.py:handle_request():144] handle_request: status_report
