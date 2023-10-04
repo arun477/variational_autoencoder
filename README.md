@@ -1,5 +1,5 @@
 ### Applying Variational Autoencoders to Fashion-MNIST Data
-[Paper](https://arxiv.org/abs/1312.6114)
+[Auto-Encoding Variational Bayes (Paper)](https://arxiv.org/abs/1312.6114)
 
 cifar-10 dataset output is not clear.
 ![cifar-10](assets/cifar_10_output.png)
