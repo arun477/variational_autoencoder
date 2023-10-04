@@ -18,5 +18,5 @@
 * Training Notebook: vae.ipynb
 * Model: model.pth
 
-#### Training output and logs<br/>
+#### Training output and logs
 [Weights & Biases](https://wandb.ai/carlfeynman/vae/reports/VAE-Fashion-MNIST-Runs--Vmlldzo1NDgyNDAy)
