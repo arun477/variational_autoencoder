@@ -14,7 +14,7 @@
 ![cifar-10](assets/cifar_10_output.png)
 
 #### Model Info
-* Model: VAE
+* [GitHub](https://github.com/arun477/variational_autoencoder)
 * Training Notebook: vae.ipynb
 * Model: model.pth
 
