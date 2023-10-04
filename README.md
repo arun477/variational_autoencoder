@@ -2,12 +2,12 @@
 [Auto-Encoding Variational Bayes (Paper)](https://arxiv.org/abs/1312.6114)
 
 #### Fashion-MNIST Dataset <br/>
-##### Reconstruction<br/>
-![reconstruction](assets/reconstruction.png)<br/>
-##### Original <br/>
+##### Reconstruction
+![reconstruction](assets/reconstruction.png)
+##### Original 
 ![original](assets/original.png)
 
-##### Generated Samples <br/>
+##### Generated Samples
 ![generated_sample_output](assets/generated_sample_output.png)
 
 #### CIFAR-10 dataset output (Blurry)
