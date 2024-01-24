@@ -1,5 +1,5 @@
 ### Applying Variational Autoencoders to Fashion-MNIST Data
-Recreating the Auto-Encoding Variational Bayes paper, using the Fashion MNIST dataset on a local machine.
+Recreating the auto-encoding variational bayes paper, on Fashion MNIST dataset on a local machine.
 [Auto-Encoding Variational Bayes (Paper)](https://arxiv.org/abs/1312.6114)
 
 #### Fashion-MNIST Dataset
